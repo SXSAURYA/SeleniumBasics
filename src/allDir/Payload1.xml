@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:s="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SOAP-ENV:Body>
+		<FindPersonResponse xmlns="http://tempuri.org">
+			<FindPersonResult>
+				<Name>Waterman,Danielle C.</Name>
+				<SSN>944-39-5991</SSN>
+				<DOB>1997-05-30</DOB>
+				<Home>
+					<Street>1648 Maple Street</Street>
+					<City>Oak Creek</City>
+					<State>ID</State>
+					<Zip>33045</Zip>
+				</Home>
+				<Office>
+					<Street>9443 Oak Blvd</Street>
+					<City>Bensonhurst</City>
+					<State>ID</State>
+					<Zip>95698</Zip>
+				</Office>
+				<FavoriteColors>
+					<FavoriteColorsItem>Green</FavoriteColorsItem>
+				</FavoriteColors>
+				<Age>23</Age>
+			</FindPersonResult>
+		</FindPersonResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
